@@ -6,10 +6,10 @@ const producto= {
     disponible:true,
 }
 
-Object.freeze(precio);
-
+Object.freeze(precio);//previenes agregar nuevas propiedades a tus objetos. no permite agregar ni modificar ni eliminar
+//Object.seal(producto); permite modificar propiedades existentes
 producto.imagen ='imagen.jpg';
 
 console.log(Object.isFrozen(producto));
 
-console.log(producto)
+console.log(producto);
