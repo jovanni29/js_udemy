@@ -22,17 +22,23 @@
 // for(let i=0;i<carrito.length; i++){
 // console.log(carrito[i].precio)
 // }
-//while loop
+//while loop, no se ejecuta si la condicion no se cumple 
 
-let i=1; //indice
-while(i<=10){ //condicion
-if(i%2===0){
-console.log(`El numero ${i} es par`)
-}else{
-    console.log(`El numero ${i} es impar`)
-}
-    i++; //incremento
+// let i=1; //indice
+// while(i<=10){ //condicion
+// if(i%2===0){
+// console.log(`El numero ${i} es par`)
+// }else{
+//     console.log(`El numero ${i} es impar`)
+// }
+//     i++; //incremento
 
-}
+// }
 
 //do while loop
+//se ejecuta al menos una vez aunque la condicion no se cumpla 
+let i=1;
+do{
+console.log(i);
+i++;
+} while(i<10);
